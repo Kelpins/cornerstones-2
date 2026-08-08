@@ -4,26 +4,20 @@
 
 % Ta = 0:40:1 --> Ta = 0:1:40
 
-
-% since Ta is an array of size 41 and V is an array of size 21, the program
-% is unable to complete element-wise operations. updated code to cap Ta at
-% only 21 elements by changing cutoff value to 20.
-
-% Ta = 0:1:40 --> Ta = 0:1:20
+Ta = 0:1:40; %was Ta = 0:40:1
 
 
-Ta = 0:1:20; %was Ta = 0:40:1
+% NOTE -- canvas announcement "Minor change in AE2" changes increment from
+% 0.5 to 0.25 to ensure array sizes match
 
-
-
-% the original code reads to create an array from 10 to 0.5 with an
+% the original code reads to create an array from 10 to 0.25 with an
 % increment of 20. updated code to create an array from 10 to 20 with an
-% increment of 0.5 by swapping last two parameters.
+% increment of 0.25 by swapping last two parameters.
 
-% V = 10:20:0.5 --> V = 10:0.5:20
+% V = 10:20:0.25 --> V = 10:0.25:20
 
 
-V = 10:0.5:20; %was V = 10:20:0.5
+V = 10:0.25:20; %was V = 10:20:0.25
 
 
 

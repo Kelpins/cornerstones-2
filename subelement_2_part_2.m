@@ -57,10 +57,10 @@ A_right_div = A_left_div.'
 
 % resulting coefficient matrix
 % A_right_div = [
-%     -20 7 0 -1;
-%     0 0 0 2;
-%     1 0 -1 0;
-%     5 -3 4.5 -12;
+%     -20  7   0    -1;
+%       0  0   0     2;
+%       1  0  -1     0;
+%       5 -3   4.5  -12;
 %     ]
 
 % next, we set up the (single-row) solution matrix where each column
@@ -81,6 +81,8 @@ B_right_div/A_right_div
 
 % printed answer: 0.4000 (a) 13.5500 (b) -1.0000 (c) 2.0000 (d)
 
+
+% Answers to the system of equations:
 % a =  0.4000
 % b = 13.5500
 % c = -1.0000
